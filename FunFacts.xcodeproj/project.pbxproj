@@ -12,6 +12,8 @@
 		723851F82048B9C200D9DA18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723851F62048B9C200D9DA18 /* Main.storyboard */; };
 		723851FA2048B9C200D9DA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723851F92048B9C200D9DA18 /* Assets.xcassets */; };
 		723851FD2048B9C200D9DA18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723851FB2048B9C200D9DA18 /* LaunchScreen.storyboard */; };
+		72B31E2F2048D62F00194669 /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B31E2E2048D62F00194669 /* FactProvider.swift */; };
+		72B31E312048E19300194669 /* BackgroundColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B31E302048E19300194669 /* BackgroundColorProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		723851F92048B9C200D9DA18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		723851FC2048B9C200D9DA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		723851FE2048B9C200D9DA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72B31E2E2048D62F00194669 /* FactProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
+		72B31E302048E19300194669 /* BackgroundColorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColorProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		723851F12048B9C100D9DA18 /* FunFacts */ = {
 			isa = PBXGroup;
 			children = (
+				723851FE2048B9C200D9DA18 /* Info.plist */,
 				723851F22048B9C100D9DA18 /* AppDelegate.swift */,
+				72B31E2E2048D62F00194669 /* FactProvider.swift */,
 				723851F42048B9C200D9DA18 /* ViewController.swift */,
-				723851F62048B9C200D9DA18 /* Main.storyboard */,
+				72B31E302048E19300194669 /* BackgroundColorProvider.swift */,
 				723851F92048B9C200D9DA18 /* Assets.xcassets */,
 				723851FB2048B9C200D9DA18 /* LaunchScreen.storyboard */,
-				723851FE2048B9C200D9DA18 /* Info.plist */,
+				723851F62048B9C200D9DA18 /* Main.storyboard */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			files = (
 				723851F52048B9C200D9DA18 /* ViewController.swift in Sources */,
 				723851F32048B9C100D9DA18 /* AppDelegate.swift in Sources */,
+				72B31E312048E19300194669 /* BackgroundColorProvider.swift in Sources */,
+				72B31E2F2048D62F00194669 /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +289,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tlau.FunFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tlau.FunFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
